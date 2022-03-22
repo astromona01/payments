@@ -1,0 +1,93 @@
+.form-wrapper {
+  position: relative;
+  margin: 100px auto 0;
+  width: 600px;
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 306px;
+  border: 1px solid #000;
+  z-index: 2;
+  border-radius: 1em;
+  box-sizing: border-box;
+}
+
+.card-front {
+  padding: 20% 20px 20px 20px;
+  background: linear-gradient(45deg, white, #CD5C5C);
+}
+
+.card-back {
+  left: 35%;
+  top: 33px;
+  z-index: 1;
+  background: lightgray;
+}
+.card-back .line {
+  height: 100px;
+  background: darkgray;
+  margin-top: 20px;
+}
+
+.card-number {
+  width: 100%;
+  background: #fff;
+}
+
+.card-date {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.card-date-item {
+  width: 75px;
+  background: #fff;
+}
+.card-date-item:last-child {
+  width: 80px;
+}
+
+.date-block-name {
+  margin: 15px 0;
+}
+
+.CVV {
+  margin-right: 5%;
+  width: 17%;
+  margin-left: 78%;
+  margin-top: 25px;
+  background: #fff;
+}
+
+.cvv-input-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 25px;
+  padding-right: 20px;
+}
+
+.cvv-text {
+  text-align: right;
+  padding-right: 85px;
+}
+
+#outlined-basic {
+  font-size: 21px;
+  padding: 12px;
+}
+
+.amount-block {
+  top: 356px;
+  position: absolute;
+}
+.amount-block div:first-child {
+  margin-bottom: 15px;
+}
+
+.pay-button {
+  top: 490px;
+}
+
+/*# sourceMappingURL=App.css.map */
